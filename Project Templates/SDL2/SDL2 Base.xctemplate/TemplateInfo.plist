@@ -57,7 +57,7 @@
 					<string>-framework cocoa -framework SDL2</string>
 				</array>
 				<key>USER_HEADER_SEARCH_PATHS</key>
-				<string>$(BUILT_PRODUCTS_DIR)/usr/local/include</string>
+				<string></string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
 				<array>
 					<string>/Library/Frameworks</string>
