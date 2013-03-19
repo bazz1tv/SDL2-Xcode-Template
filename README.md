@@ -14,4 +14,6 @@ The difference is that one is simply a command line app.
 the other is an actual .app file (with the .app package hierarchy and all).
 
 Feel free to try them both out and modify them to your needs. Havefun! If you have any questions... Hit me up!!!
-mbazzinotti __ AT __ gmail.com
+My email is ||| mbazzinotti __ AT __ gmail.com |||
+
+
