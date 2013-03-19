@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.apple.dt.unit.SDL2Base</string>
+	<key>Concrete</key>
+	<false/>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.base</string>
+		<string>com.apple.dt.unit.macBase</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>main.cpp</key>
+		<dict>
+			<key>Path</key>
+			<string>main.cpp</string>
+		</dict>
+	</dict>
+	<key>Nodes</key>
+	<array>
+		<string>main.cpp</string>
+	</array>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>BuildPhases</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>Sources</string>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>Frameworks</string>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>CopyFiles</string>
+					<key>DstPath</key>
+					<string>/usr/share/man/man1/</string>
+					<key>DstSubfolderSpec</key>
+					<string>0</string>
+					<key>RunOnlyForDeploymentPostprocessing</key>
+					<string>YES</string>
+				</dict>
+			</array>
+			
+			<key>SharedSettings</key>
+			<dict>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>-framework cocoa -framework SDL2</string>
+				</array>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>$(BUILT_PRODUCTS_DIR)/usr/local/include</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>/Library/Frameworks</string>
+				</array>
+				<key>LIBRARY_SEARCH_PATHS</key>
+				<array>
+					<string>/opt/local/lib</string>
+					<string>/usr/lib</string>
+				</array>
+				<key>HEADER_SEARCH_PATHS</key>
+				<array>
+					<string>/opt/local/include</string>
+					<string>/usr/include</string>
+					<string>/usr/local/include</string>
+				</array>
+			</dict>
+				
+		</dict>
+	</array>
+</dict>
+</plist>

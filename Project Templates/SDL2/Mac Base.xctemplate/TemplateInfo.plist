@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.apple.dt.unit.macBase</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.macosx</string>
+	</array>
+	<key>Project</key>
+	<dict>
+		<key>SDK</key>
+		<string>macosx</string>
+		<key>SharedSettings</key>
+		<dict>
+			<key>ARCHS</key>
+			<string>$(ARCHS_STANDARD_64_BIT)</string>
+			<key>MACOSX_DEPLOYMENT_TARGET</key>
+			<string>___RUNNINGOSXVERSION___</string>
+			<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+			<string>YES</string>
+			<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
+			<string>YES</string>
+		</dict>
+		<key>Configurations</key>
+		<dict>
+			<key>Debug</key>
+			<dict>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+			</dict>
+			<key>Release</key>
+			<dict>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Definitions</key>
+	<dict>
+		<key>*:*:importCocoa</key>
+		<string>#import &lt;Cocoa/Cocoa.h&gt;
+</string>
+		<key>___PACKAGENAME___-Info.plist:NSHumanReadableCopyright</key>
+		<string>___NSHUMANREADABLECOPYRIGHTPLIST___</string>
+	</dict>
+</dict>
+</plist>
