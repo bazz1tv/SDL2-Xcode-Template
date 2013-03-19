@@ -16,18 +16,6 @@
 		<string>com.apple.dt.unit.macBase</string>
 		<string>com.apple.dt.unit.SDL2Base</string>
 	</array>
-	<key>Definitions</key>
-	<dict>
-		<key>main.cpp</key>
-		<dict>
-			<key>Path</key>
-			<string>main.cpp</string>
-		</dict>
-	</dict>
-	<key>Nodes</key>
-	<array>
-		<string>main.cpp</string>
-	</array>
 	<key>Targets</key>
 	<array>
 		<dict>
