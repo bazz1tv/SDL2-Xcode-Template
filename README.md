@@ -7,6 +7,7 @@ Tah-Dah
 Pre-Requisites
 ---------------
 Designed to work with the SDL2.framework in your /Library/Frameworks folder.
+If you need to look in another directory for your frameworks, please just add to SDL2 Base.xctemplate/TemplateInfo.plist @ the bottom, near <key>LIBRARY_SEARCH_PATHS</key> :) You'll figure it out :) 
 
 Install
 ---------------
