@@ -1,4 +1,4 @@
-SDL2 Xcode Templates
+SDL2 Xcode4 Templates
 ======================
 
 Tah-Dah
