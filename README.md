@@ -18,7 +18,7 @@ Notes
 There are 2 different Templates, one for SDL2 Console application, and one for SDL2 Regular Application. 
 
 The difference is that one is simply a command line app.
-the other is an actual .app file (with the .app package hierarchy and all).
+the other is an actual .app file (with the .app bundle hierarchy and all).
 
 Technical Notes
 ---------------
