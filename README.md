@@ -1,7 +1,9 @@
-SDL2 Xcode4 Templates
+SDL2 Xcode4/5/6 Templates
 ======================
 
 Tah-Dah
+
+if your XCode crashes when loading the templates, a user had a similar experience and wrote to me that the SDL2 framework isn't properly signed. Correcting the digital signature fixed his problem: http://stackoverflow.com/questions/22368202/xcode-5-crashes-when-running-an-app-with-sdl-2
 
 
 Pre-Requisites
